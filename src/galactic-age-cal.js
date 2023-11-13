@@ -11,4 +11,8 @@ export class GalacticAge {
         return parseFloat((this.age / .62).toFixed(2));
     }
 
+    calculateMarsAge() {
+        return parseFloat((this.age / 1.88).toFixed(2));
+    }
+
 }
