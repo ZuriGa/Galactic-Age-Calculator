@@ -1,26 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galactic Age Calculator</title>
 </head>
+
 <body>
-    <h1>Super Galactic Age Calculator</h1>
-    <p>This application determines a user's age based on a planet's solar years. It determines how many years have passed on each planet since a past birthday, and it also determines how many years have yet to pass until a future birthday</p>
-    <div class="container">
-    <form>
-        <div class="form-group">
-            <label for="age">Enter your Name:</label>
-            <input type="text" class="form-control" id="age" placeholder="enter your name">
-            <label for="age">Enter your age:</label>
-            <input type="text" class="form-control" id="age" placeholder="enter your age in digits">
-        </div>
-    </form>
-    <button type="button" class="btn btn-outline-warning">Enter</button>
+    <div class="header">
+        <h1 class="glow">Super Galactic Age Calculator</h1>
+        <hr />
+        <p style="font-size: 2vw"> This application determines a user's age based on a planet's solar years. It
+            determines how many years have
+            passed on each planet since a past birthday, and it also determines how many years have yet to pass until a
+            future birthday</p>
     </div>
-    
-    
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <form class="form-group">
+                    <div class="card">
+                        <div id="user-input">
+                            <label for="name">Enter your Name:</label>
+                            <input type="text" class="form-control" id="name" placeholder="enter your name"><br />
+                            <label for="age">Enter your age:</label>
+                            <input type="number" class="form-control" id="age" placeholder="enter your age in digits"><br />
+                            <button type="button" class="btn btn-outline-dark" id="submit">Calculate age</button>
+                        </div>
+                        <button class="btn btn-outline-dark" id="update-info">Change Information</button>
+                    </div>
+                </form>
+            </div>
+            <section id="planets" class="col-sm-6">
+                <div class="card2">
+                    <h2 class="glow2">Galactic Age Calculator</h2>
+                    <hr />
+                    <h3 id="user-name" class="card-title"></h3>
+                    <br />
+                    <h4>Mercury Age Conversions</h4>
+                    <div id="mercury">
+                    </div><br />
+                    <h4>Venus Age Conversions</h4>
+                    <div id="venus">
+                    </div><br />
+                    <h4>Mars Age Conversions</h4>
+                    <div id="mars">
+                    </div><br />
+                    <h4>Jupiter Age Conversions</h4>
+                    <div id="jupiter">
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
 
 </body>
+
 </html>
