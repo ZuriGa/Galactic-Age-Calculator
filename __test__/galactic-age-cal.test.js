@@ -46,5 +46,11 @@ describe(GalacticAge, () => {
         expect(galacticAge.calculateYearsSinceBirthday(25).jupiterYears).toEqual(94.88);
     });
 
+    test('It should calculate how many years have yet to pass until a future birthday in Earth years', () => {
+        expect(galacticAge.calculateYearsToFutureBirthday(45)).toEqual({
+            earthYears: 12,
+        });
+    });
+
 
 });

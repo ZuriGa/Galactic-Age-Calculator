@@ -30,4 +30,11 @@ export class GalacticAge {
         };
     }
 
+    calculateYearsToFutureBirthday(targetAge) {
+        const yearsToPass = targetAge - this.age;
+        return {
+            earthYears: yearsToPass,
+        };
+    }
+
 }
