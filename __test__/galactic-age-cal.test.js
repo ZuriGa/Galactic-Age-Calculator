@@ -1,3 +1,4 @@
+import { experiments } from 'webpack';
 import { GalacticAge } from './../src/galactic-age-cal.js';
 
 describe(GalacticAge, () => {
@@ -39,6 +40,10 @@ describe(GalacticAge, () => {
 
     test('It should calculate how many years have passed since a users past birthday in Mars years', () => {
         expect(galacticAge.calculateYearsSinceBirthday(25).marsYears).toEqual(15.04);
+    });
+
+    test('It should calculate how many years have passed since a users past birthday in Jupiter years', () => {
+        expect(galacticAge.calculateYearsSinceBirthday(25).jupiterYears).toEqual(94.88);
     });
 
 

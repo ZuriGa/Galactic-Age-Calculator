@@ -26,6 +26,7 @@ export class GalacticAge {
             mercuryYears: yearsPassed * 0.24,
             venusYears: yearsPassed * 0.62,
             marsYears: yearsPassed * 1.88,
+            jupiterYears: yearsPassed * 11.86,
         };
     }
 
