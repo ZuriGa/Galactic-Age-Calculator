@@ -25,9 +25,13 @@ describe(GalacticAge, () => {
         expect(galacticAge.calculateJupiterAge()).toEqual(2.78);
     });
 
-    test('It should calculate how many years have passed since a users past birthday', () => {
-        expect(galacticAge.calculateYearsSinceBirthday(25)).toEqual({
-            earthYears: 8,
-        });
-    })
+    test('It should calculate how many years have passed since a users past birthday in earth years', () => {
+        expect(galacticAge.calculateYearsSinceBirthday(25).earthYears).toEqual(8);
+    });
+
+    test('It should calculate how many years have passed since a users past birthday in Mercury years', () => {
+        expect(galacticAge.calculateYearsSinceBirthday(25).mercuryYears).toEqual(1.92);
+    });
+
+
 });
