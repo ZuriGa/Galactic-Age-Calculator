@@ -34,6 +34,7 @@ export class GalacticAge {
         const yearsToPass = targetAge - this.age;
         return {
             earthYears: yearsToPass,
+            mercuryYears: yearsToPass * 0.24,
         };
     }
 
