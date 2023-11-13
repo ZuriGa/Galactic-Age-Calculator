@@ -9,6 +9,7 @@
     "start": "webpack-dev-server --open --mode=development",
     "lint": "eslint src --ext .js"
     
+    
   },
   "keywords": [],
   "author": "",
