@@ -5,12 +5,12 @@ body {
 
 }
 .header {
-    padding:20px;
+    padding:5px;
     text-align: center;
     background: rgb(251, 111, 251);
     opacity: .9;
     color: white;
-    font-size: 35px;
+    font-size: 20px;
 
 }
 .glow {
