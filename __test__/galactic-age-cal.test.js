@@ -54,5 +54,9 @@ describe(GalacticAge, () => {
         expect(galacticAge.calculateYearsToFutureBirthday(45).mercuryYears).toEqual(2.88);
     });
 
+    test('It should calculate how many years have yet to pass until a future birthday in Venus years', () => {
+        expect(galacticAge.calculateYearsToFutureBirthday(45).venusYears).toEqual(7.44);
+    });
+
 
 });
