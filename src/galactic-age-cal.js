@@ -1,3 +1,6 @@
-export function GalacticAge(){
-    
+export class GalacticAge {
+    constructor(age) {
+        this.age = age;
+    }
+
 }
