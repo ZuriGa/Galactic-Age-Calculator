@@ -6,6 +6,10 @@ describe(GalacticAge, () => {
         galacticAge = new GalacticAge(33);
     });
     test('It should correctly calculate a users age from a users input date: 11/14/1990', () => {
-    expect(galacticAge.age).toEqual(33);
+        expect(galacticAge.age).toEqual(33);
+    });
+
+    test('It should calculate a users age in Mercury years', () => {
+        expect(galacticAge.calculateMercuryAge()).toEqual(137.50);
     });
 });

@@ -3,4 +3,8 @@ export class GalacticAge {
         this.age = age;
     }
 
+    calculateMercuryAge() {
+        return parseFloat((this.age / .24). toFixed(2));
+    }
+
 }
