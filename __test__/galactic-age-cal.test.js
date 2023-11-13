@@ -62,4 +62,8 @@ describe(GalacticAge, () => {
         expect(galacticAge.calculateYearsToFutureBirthday(45).marsYears).toEqual(22.56);
     });
 
+    test('It should calculate how many years have yet to pass until a future birthday in Jupiter years', () => {
+        expect(galacticAge.calculateYearsToFutureBirthday(45).jupiterYears).toEqual(142.32);
+    });
+
 });
