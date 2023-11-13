@@ -1,2 +1,5 @@
-import { GalacticAge } from './galactic-age-cal.js';
-import './css/styles.css';
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../src/css/styles.css';
+import { GalacticAge } from '../src/js/galactic-age-cal';
+

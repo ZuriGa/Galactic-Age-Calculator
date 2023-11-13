@@ -1,5 +1,4 @@
-import { experiments } from 'webpack';
-import { GalacticAge } from './../src/galactic-age-cal.js';
+import { GalacticAge } from '../src/js/galactic-age-cal.js';
 
 describe(GalacticAge, () => {
     let galacticAge;
