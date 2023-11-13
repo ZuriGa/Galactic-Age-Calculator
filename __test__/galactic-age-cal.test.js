@@ -37,4 +37,9 @@ describe(GalacticAge, () => {
         expect(galacticAge.calculateYearsSinceBirthday(25).venusYears).toEqual(4.96);
     });
 
+    test('It should calculate how many years have passed since a users past birthday in Mars years', () => {
+        expect(galacticAge.calculateYearsSinceBirthday(25).marsYears).toEqual(15.04);
+    });
+
+
 });
