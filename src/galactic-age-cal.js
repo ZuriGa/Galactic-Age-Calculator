@@ -36,6 +36,7 @@ export class GalacticAge {
             earthYears: yearsToPass,
             mercuryYears: yearsToPass * 0.24,
             venusYears: parseFloat((yearsToPass * 0.62).toFixed(2)),
+            marsYears: yearsToPass * 1.88,
         };
     }
 
