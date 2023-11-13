@@ -4,7 +4,11 @@ export class GalacticAge {
     }
 
     calculateMercuryAge() {
-        return parseFloat((this.age / .24). toFixed(2));
+        return parseFloat((this.age / .24).toFixed(2));
+    }
+
+    calculateVenusAge() {
+        return parseFloat((this.age / .62).toFixed(2));
     }
 
 }
